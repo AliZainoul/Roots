@@ -12,6 +12,6 @@ double bisection(double a, double b, pfn f , double delta, double epsilon);
 bool root(pfn f, double xp);
 bool divisionbyzero(pfn fd, double xp);
 bool haveWeFoundSolution(double xp, double xn);
-double newton(double xp, pfn f, pfn fd, double delta, double epsilon, int n_max);
+double newton(double xp, pfn f, pfn fd, double delta, double epsilon, int nmax);
 }
 #endif
