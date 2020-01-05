@@ -1,5 +1,6 @@
-# Newton's Method for finding roots to a function
-To Compile:
+# Library of Methods in order to find roots of a function
+Library to find roots of a given function using either Newton's method or Bisection.
+# To Compile :
 
 g++ -c error.cpp Roots.cpp main.cpp
 
